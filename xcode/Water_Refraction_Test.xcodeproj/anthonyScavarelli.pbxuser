@@ -1,0 +1,400 @@
+// !$*UTF8*$!
+{
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = DF55611F12DE605B00A771F8 /* Water_Refraction_Test */;
+		activeTarget = 8D1107260486CEB800E47090 /* Water_Refraction_Test */;
+		addToTargets = (
+			8D1107260486CEB800E47090 /* Water_Refraction_Test */,
+		);
+		codeSenseManager = DF55614812DE608000A771F8 /* Code sense */;
+		executables = (
+			DF55611F12DE605B00A771F8 /* Water_Refraction_Test */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXExecutablesDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXExecutablesDataSource_NameID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					22,
+					300,
+					800,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXExecutablesDataSource_ActiveFlagID,
+					PBXExecutablesDataSource_NameID,
+					PBXExecutablesDataSource_CommentsID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					912,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXConfiguration.PBXTargetDataSource.PBXTargetDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					872,
+					60,
+					20,
+					48,
+					43,
+					43,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXTargetDataSource_PrimaryAttribute,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 318092819;
+			PBXWorkspaceStateSaveDate = 318092819;
+		};
+		perUserProjectItems = {
+			DF421C3F12EF6D25007EB30F = DF421C3F12EF6D25007EB30F /* PBXTextBookmark */;
+			DF421C5912EF6E40007EB30F = DF421C5912EF6E40007EB30F /* PBXTextBookmark */;
+			DF421C6112EF6E75007EB30F = DF421C6112EF6E75007EB30F /* PBXTextBookmark */;
+			DF5563F112DF83AF00A771F8 = DF5563F112DF83AF00A771F8 /* PBXTextBookmark */;
+			DF5563F312DF83AF00A771F8 = DF5563F312DF83AF00A771F8 /* PBXTextBookmark */;
+			DF5563F512DF83AF00A771F8 = DF5563F512DF83AF00A771F8 /* PBXTextBookmark */;
+			DF5563F712DF83AF00A771F8 = DF5563F712DF83AF00A771F8 /* PBXTextBookmark */;
+			DF5563F912DF83AF00A771F8 = DF5563F912DF83AF00A771F8 /* PBXTextBookmark */;
+			DF5563FB12DF83AF00A771F8 = DF5563FB12DF83AF00A771F8 /* PlistBookmark */;
+			DF5563FC12DF83AF00A771F8 = DF5563FC12DF83AF00A771F8 /* PBXTextBookmark */;
+			DF5563FE12DF83AF00A771F8 = DF5563FE12DF83AF00A771F8 /* PBXTextBookmark */;
+			DF67984F12F1EF2300929914 = DF67984F12F1EF2300929914 /* PBXTextBookmark */;
+			DF67985012F1EF2300929914 = DF67985012F1EF2300929914 /* PBXTextBookmark */;
+			DF67985112F1EF2300929914 = DF67985112F1EF2300929914 /* PBXTextBookmark */;
+			DF67985212F1EF2300929914 = DF67985212F1EF2300929914 /* PBXTextBookmark */;
+			DF71D84412F5B6170093C79F /* PBXTextBookmark */ = DF71D84412F5B6170093C79F /* PBXTextBookmark */;
+		};
+		sourceControlManager = DF55614712DE608000A771F8 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	8D1107260486CEB800E47090 /* Water_Refraction_Test */ = {
+		activeExec = 0;
+		executables = (
+			DF55611F12DE605B00A771F8 /* Water_Refraction_Test */,
+		);
+	};
+	DF421B9812EF587B007EB30F /* Water_Refraction_TestApp.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1090, 6422}}";
+			sepNavSelRange = "{10465, 148}";
+			sepNavVisRange = "{9853, 1237}";
+		};
+	};
+	DF421C2612EF6604007EB30F /* BasicBlender_frag.glsl */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1090, 923}}";
+			sepNavSelRange = "{165, 1296}";
+			sepNavVisRange = "{376, 1083}";
+		};
+	};
+	DF421C2712EF6604007EB30F /* BasicBlender_vert.glsl */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1090, 612}}";
+			sepNavSelRange = "{0, 482}";
+			sepNavVisRange = "{0, 483}";
+		};
+	};
+	DF421C2812EF6604007EB30F /* SSAO_frag.glsl */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {5003, 793}}";
+			sepNavSelRange = "{2610, 0}";
+			sepNavVisRange = "{142, 3590}";
+		};
+	};
+	DF421C2912EF6604007EB30F /* SSAO_vert.glsl */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1090, 615}}";
+			sepNavSelRange = "{164, 67}";
+			sepNavVisRange = "{0, 233}";
+		};
+	};
+	DF421C3F12EF6D25007EB30F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DF55614F12DE60D800A771F8 /* Resources.h */;
+		name = "Resources.h: 7";
+		rLen = 0;
+		rLoc = 221;
+		rType = 0;
+		vrLen = 222;
+		vrLoc = 0;
+	};
+	DF421C5912EF6E40007EB30F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DF421C2812EF6604007EB30F /* SSAO_frag.glsl */;
+		name = "SSAO_frag.glsl: 22";
+		rLen = 0;
+		rLoc = 2610;
+		rType = 0;
+		vrLen = 3590;
+		vrLoc = 142;
+	};
+	DF421C6112EF6E75007EB30F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DF421C2912EF6604007EB30F /* SSAO_vert.glsl */;
+		name = "SSAO_vert.glsl: 9";
+		rLen = 67;
+		rLoc = 164;
+		rType = 0;
+		vrLen = 233;
+		vrLoc = 0;
+	};
+	DF55611F12DE605B00A771F8 /* Water_Refraction_Test */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = Water_Refraction_Test;
+		savedGlobals = {
+		};
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	DF55614712DE608000A771F8 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	DF55614812DE608000A771F8 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	DF55614F12DE60D800A771F8 /* Resources.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1090, 615}}";
+			sepNavSelRange = "{221, 0}";
+			sepNavVisRange = "{0, 222}";
+		};
+	};
+	DF5563F112DF83AF00A771F8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DF5563F212DF83AF00A771F8 /* Light.h */;
+		name = "Light.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 2144;
+		vrLoc = 177;
+	};
+	DF5563F212DF83AF00A771F8 /* Light.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = Light.h;
+		path = /Developer/cinder_master/include/cinder/gl/Light.h;
+		sourceTree = "<absolute>";
+	};
+	DF5563F312DF83AF00A771F8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DF5563F412DF83AF00A771F8 /* stl_bvector.h */;
+		name = "stl_bvector.h: 766";
+		rLen = 12;
+		rLoc = 19618;
+		rType = 0;
+		vrLen = 1135;
+		vrLoc = 18946;
+	};
+	DF5563F412DF83AF00A771F8 /* stl_bvector.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = stl_bvector.h;
+		path = "/Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/bits/stl_bvector.h";
+		sourceTree = "<absolute>";
+	};
+	DF5563F512DF83AF00A771F8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DF5563F612DF83AF00A771F8 /* Light.cpp */;
+		name = "Light.cpp: 59";
+		rLen = 39;
+		rLoc = 2181;
+		rType = 0;
+		vrLen = 1900;
+		vrLoc = 0;
+	};
+	DF5563F612DF83AF00A771F8 /* Light.cpp */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.cpp.cpp;
+		name = Light.cpp;
+		path = /Developer/cinder_master/src/cinder/gl/Light.cpp;
+		sourceTree = "<absolute>";
+	};
+	DF5563F712DF83AF00A771F8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DF5563F812DF83AF00A771F8 /* gl.h */;
+		name = "gl.h: 191";
+		rLen = 73;
+		rLoc = 10838;
+		rType = 0;
+		vrLen = 3924;
+		vrLoc = 9321;
+	};
+	DF5563F812DF83AF00A771F8 /* gl.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = gl.h;
+		path = /Developer/cinder_0.8.2_mac/include/cinder/gl/gl.h;
+		sourceTree = "<absolute>";
+	};
+	DF5563F912DF83AF00A771F8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DF5563FA12DF83AF00A771F8 /* Color.h */;
+		name = "Color.h: 34";
+		rLen = 60;
+		rLoc = 1544;
+		rType = 0;
+		vrLen = 1777;
+		vrLoc = 0;
+	};
+	DF5563FA12DF83AF00A771F8 /* Color.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = Color.h;
+		path = /Developer/cinder_0.8.2_mac/include/cinder/Color.h;
+		sourceTree = "<absolute>";
+	};
+	DF5563FB12DF83AF00A771F8 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = /Users/anthonyScavarelli/svnRepositories/senior_project/trunk/cinder/cinderProjects/cinderExamples/Base_ThreeD_Project/xcode/Info.plist;
+		rLen = 0;
+		rLoc = 9223372036854775808;
+	};
+	DF5563FC12DF83AF00A771F8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DF5563FD12DF83AF00A771F8 /* Camera.h */;
+		name = "Camera.h: 51";
+		rLen = 38;
+		rLoc = 2166;
+		rType = 0;
+		vrLen = 2201;
+		vrLoc = 1423;
+	};
+	DF5563FD12DF83AF00A771F8 /* Camera.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = Camera.h;
+		path = /Developer/cinder_0.8.2_mac/include/cinder/Camera.h;
+		sourceTree = "<absolute>";
+	};
+	DF5563FE12DF83AF00A771F8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DF5563FF12DF83AF00A771F8 /* Light.h */;
+		name = "Light.h: 33";
+		rLen = 14;
+		rLoc = 1480;
+		rType = 0;
+		vrLen = 2053;
+		vrLoc = 0;
+	};
+	DF5563FF12DF83AF00A771F8 /* Light.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = Light.h;
+		path = /Developer/cinder_0.8.2_mac/include/cinder/gl/Light.h;
+		sourceTree = "<absolute>";
+	};
+	DF67984F12F1EF2300929914 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DF421B9812EF587B007EB30F /* Water_Refraction_TestApp.cpp */;
+		name = "Water_Refraction_TestApp.cpp: 420";
+		rLen = 148;
+		rLoc = 10465;
+		rType = 0;
+		vrLen = 1237;
+		vrLoc = 9853;
+	};
+	DF67985012F1EF2300929914 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DF421C2712EF6604007EB30F /* BasicBlender_vert.glsl */;
+		name = "BasicBlender_vert.glsl: 1";
+		rLen = 482;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 483;
+		vrLoc = 0;
+	};
+	DF67985112F1EF2300929914 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DF421C2612EF6604007EB30F /* BasicBlender_frag.glsl */;
+		name = "BasicBlender_frag.glsl: 14";
+		rLen = 1296;
+		rLoc = 165;
+		rType = 0;
+		vrLen = 1058;
+		vrLoc = 403;
+	};
+	DF67985212F1EF2300929914 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DF421C2612EF6604007EB30F /* BasicBlender_frag.glsl */;
+		name = "BasicBlender_frag.glsl: 14";
+		rLen = 1296;
+		rLoc = 165;
+		rType = 0;
+		vrLen = 1058;
+		vrLoc = 403;
+	};
+	DF71D84412F5B6170093C79F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DF421C2612EF6604007EB30F /* BasicBlender_frag.glsl */;
+		name = "BasicBlender_frag.glsl: 14";
+		rLen = 1296;
+		rLoc = 165;
+		rType = 0;
+		vrLen = 1083;
+		vrLoc = 376;
+	};
+}
