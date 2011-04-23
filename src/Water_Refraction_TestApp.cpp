@@ -109,8 +109,7 @@ void Water_Refraction_Test::setup()
 	mParams = params::InterfaceGl( "3D_Scene_Base", Vec2i( 225, 250 ) );
 	mParams.addParam( "Framerate", &mCurrFramerate, "", true );
 	mParams.addParam( "Eye Distance", &mCameraDistance, "min=-100.0 max=-5.0 step=1.0 keyIncr== keyDecr=-");
-	mParams.addParam( "Lighting On", &mLightingOn, "key=l");
-	mParams.addParam( "Light View On", &mViewFromLight, "key=v");
+	mParams.addParam( "Light Frustum", &mLightingOn, "key=l");
 	mParams.addParam( "Show/Hide Params", &mShowParams, "key=x");
 	
 	mCurrFramerate = 0.0f;
@@ -210,11 +209,6 @@ void Water_Refraction_Test::update()
 {
 	mCurrFramerate = getAverageFps();
 	mWobbleStartRad += 0.05f;
-	
-	if ( mLightingOn )
-		glEnable( GL_LIGHTING );
-	else 
-		glDisable( GL_LIGHTING );
 }
 
 void Water_Refraction_Test::draw()
@@ -222,33 +216,12 @@ void Water_Refraction_Test::draw()
 	glClearColor( 0.5f, 0.5f, 0.5f, 1 );
 	glClearDepth(1.0f);
 	glClear( GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT );
-	
-//	if (mLightingOn)
-//		glDisable(GL_LIGHTING);
-//	glColor3f( 1.0f, 1.0f, 0.1f );
-//	gl::drawFrustum( mLightRef->getShadowCamera() );
-//	glColor3f( 1.0f, 1.0f, 1.0f );
-//	if (mLightingOn)
-//		glEnable(GL_LIGHTING);
-	
-	if ( !mViewFromLight )
-	{
-		mEye = mCam->getEyePoint();
-		mEye.normalize();
-		mEye = mEye * abs(mCameraDistance);
-		mCam->lookAt( mEye, mCenter, mUp );
-		gl::setMatrices( *mCam );
-	}
-	else
-	{
-		gl::setMatrices( mLight->getShadowCamera() );
-	}
+	glEnable( GL_LIGHTING );
+    
 	mLight->update( *mCam );
 	
 	renderSceneToFBO();
 	renderScreenSpace();
-	
-	glFinish();
 	
 	if (mShowParams)
 		params::InterfaceGl::draw();
@@ -407,7 +380,7 @@ void Water_Refraction_Test::renderScreenSpace()
 	//render out main scene
 	
 	// use the scene we rendered into the FBO as a texture
-	glEnable( GL_TEXTURE_2D );
+	//glEnable( GL_TEXTURE_2D ); //not necessary as using shaders to texture ...
 	
 	// show the FBO texture in the upper left corner
 	gl::setMatricesWindow( getWindowSize() );
@@ -427,11 +400,7 @@ void Water_Refraction_Test::renderScreenSpace()
 	
 	mScreenSpace1.getTexture(0).unbind(0);
 	
-//	mScreenSpace1.getTexture(0).bind(0);
-//		gl::drawSolidRect( Rectf( 0, getWindowHeight(), getWindowWidth(), 0) );
-//	mScreenSpace1.getTexture(0).unbind(0);
-	
-	glDisable(GL_TEXTURE_2D);
+	//glDisable(GL_TEXTURE_2D);
 }
 
 void Water_Refraction_Test::initShaders()
@@ -461,14 +430,6 @@ void Water_Refraction_Test::renderSceneToFBO()
 	glClearDepth(1.0f);
 	glClear( GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT );
 	
-	if (mLightingOn)
-		glDisable(GL_LIGHTING);
-	glColor3f( 1.0f, 1.0f, 0.1f );
-	gl::drawFrustum( mLightRef->getShadowCamera() );
-	glColor3f( 1.0f, 1.0f, 1.0f );
-	if (mLightingOn)
-		glEnable(GL_LIGHTING);
-	
 	mEye = mCam->getEyePoint();
 	mEye.normalize();
 	mEye = mEye * abs(mCameraDistance);
@@ -476,6 +437,18 @@ void Water_Refraction_Test::renderSceneToFBO()
 	gl::setMatrices( *mCam );
 	mLight->update( *mCam );
 	
+    if (mLightingOn)
+	{
+        glDisable( GL_LIGHTING );
+		glPushMatrix();
+		glScalef(1, -1, 1); //cam is updide down for light for some reason ...
+		glColor3f( 1.0f, 1.0f, 0.1f );
+        gl::drawFrustum( mLight->getShadowCamera() );
+		glColor3f( 1.0f, 1.0f, 1.0f );
+		glPopMatrix();
+        glEnable( GL_LIGHTING );
+	}
+    
 	drawTestObjects();
 	
 	mScreenSpace1.unbindFramebuffer();
