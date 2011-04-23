@@ -1,16 +1,5 @@
 #version 120
 
-//uniform sampler2D baseTex;
-//
-//varying vec2 uv;
-//
-//void main()
-//{
-//	vec4 baseTex = texture2D( baseTex, uv );
-//
-//	gl_FragColor = baseTex;
-//}
-
 const float C_PI    = 3.1415;
 const float C_2PI   = 2.0 * C_PI;
 const float C_2PI_I = 1.0 / (2.0 * C_PI);
