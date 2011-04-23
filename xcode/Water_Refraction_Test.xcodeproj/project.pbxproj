@@ -21,8 +21,6 @@
 		DF421B9912EF587B007EB30F /* Water_Refraction_TestApp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DF421B9812EF587B007EB30F /* Water_Refraction_TestApp.cpp */; };
 		DF421C2A12EF6604007EB30F /* BasicBlender_frag.glsl in Resources */ = {isa = PBXBuildFile; fileRef = DF421C2612EF6604007EB30F /* BasicBlender_frag.glsl */; };
 		DF421C2B12EF6604007EB30F /* BasicBlender_vert.glsl in Resources */ = {isa = PBXBuildFile; fileRef = DF421C2712EF6604007EB30F /* BasicBlender_vert.glsl */; };
-		DF421C2C12EF6604007EB30F /* SSAO_frag.glsl in Resources */ = {isa = PBXBuildFile; fileRef = DF421C2812EF6604007EB30F /* SSAO_frag.glsl */; };
-		DF421C2D12EF6604007EB30F /* SSAO_vert.glsl in Resources */ = {isa = PBXBuildFile; fileRef = DF421C2912EF6604007EB30F /* SSAO_vert.glsl */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,8 +44,6 @@
 		DF421B9812EF587B007EB30F /* Water_Refraction_TestApp.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Water_Refraction_TestApp.cpp; path = ../src/Water_Refraction_TestApp.cpp; sourceTree = SOURCE_ROOT; };
 		DF421C2612EF6604007EB30F /* BasicBlender_frag.glsl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = BasicBlender_frag.glsl; sourceTree = "<group>"; };
 		DF421C2712EF6604007EB30F /* BasicBlender_vert.glsl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = BasicBlender_vert.glsl; sourceTree = "<group>"; };
-		DF421C2812EF6604007EB30F /* SSAO_frag.glsl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SSAO_frag.glsl; sourceTree = "<group>"; };
-		DF421C2912EF6604007EB30F /* SSAO_vert.glsl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SSAO_vert.glsl; sourceTree = "<group>"; };
 		DF55614F12DE60D800A771F8 /* Resources.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Resources.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -160,8 +156,6 @@
 			children = (
 				DF421C2612EF6604007EB30F /* BasicBlender_frag.glsl */,
 				DF421C2712EF6604007EB30F /* BasicBlender_vert.glsl */,
-				DF421C2812EF6604007EB30F /* SSAO_frag.glsl */,
-				DF421C2912EF6604007EB30F /* SSAO_vert.glsl */,
 			);
 			name = shaders;
 			path = ../resources/shaders;
@@ -229,8 +223,6 @@
 				00CCAF15116A9FEE008396D5 /* CinderApp.icns in Resources */,
 				DF421C2A12EF6604007EB30F /* BasicBlender_frag.glsl in Resources */,
 				DF421C2B12EF6604007EB30F /* BasicBlender_vert.glsl in Resources */,
-				DF421C2C12EF6604007EB30F /* SSAO_frag.glsl in Resources */,
-				DF421C2D12EF6604007EB30F /* SSAO_vert.glsl in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
